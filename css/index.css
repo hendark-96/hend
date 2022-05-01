@@ -1,0 +1,537 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#MorphingIcon1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.39%;
+   top: 0.47%;
+   width: 99.22%;
+   height: 99.07%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#MorphingIcon1
+{
+   overflow: visible;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 250px 20px 0px 20px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 970px;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 20px;
+   padding-left: 20px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 20px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: right;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape1
+{
+   filter: drop-shadow(0px 0px 10px rgba(147,112,219,0.47));
+}
+#wb_Shape1
+{
+   display: inline-block;
+   width: 241px;
+   height: 53px;
+   z-index: 0;
+   position: relative;
+}
+#Shape1
+{
+   width: 241px;
+   height: 53px;
+}
+#MorphingIcon1
+{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+   overflow: visible;
+}
+#wb_MorphingIcon1
+{
+   display: inline-block;
+   width: 257px;
+   height: 215px;
+   z-index: 1;
+   position: relative;
+}
+@media only screen and (min-width: 1024px)
+{
+div#container
+{
+   width: 1024px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#Timer1
+{
+   left: 19px;
+   top: 15px;
+   width: 76px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MorphingIcon1
+{
+   width: 257px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 200px 20px 0px 20px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+div#container
+{
+   width: 768px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#Timer1
+{
+   left: 19px;
+   top: 15px;
+   width: 76px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MorphingIcon1
+{
+   width: 257px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 200px 20px 0px 20px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+div#container
+{
+   width: 480px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#Timer1
+{
+   left: 19px;
+   top: 15px;
+   width: 76px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MorphingIcon1
+{
+   width: 257px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 200px 20px 0px 20px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (max-width: 479px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#Timer1
+{
+   left: 19px;
+   top: 15px;
+   width: 76px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MorphingIcon1
+{
+   width: 257px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 150px 20px 0px 20px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
